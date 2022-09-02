@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFEB3B</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#4D8BCA</color>
+
+    <!-- colors for button -->
+    <color name="gradient_start_color">#b4bd30</color>
+    <color name="gradient_end_color">#d2e439</color>
+    <color name="sq_button">#E2EEFB</color>
+
+    <!-- colors for tab and screen text -->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_desc_color">#656565</color>
+
+    <!-- color for view, border -->
+    <color name="lightgray">#ededed</color>
+    <color name="graybg">#f2f2f2</color>
+    <color name="lightestgray">#f2f3f6</color>
+    <color name="hi_bg">#d2dfff</color>
+
+    <!-- color for edit text -->
+    <color name="edt_lightgray">#e8ebec</color>
+    <color name="gray">#ACAEAE</color>
+    <color name="opening">#7c8890</color>
+
+    <!-- font -->
+    <color name="font_color">#656565</color>
+
+    <!-- colors for button kuesioner-->
+    <color name="button_kuesioner">#87a8c9</color>
+
+    <color name="putih">#FFFFFF</color>
+
+
+</resources>

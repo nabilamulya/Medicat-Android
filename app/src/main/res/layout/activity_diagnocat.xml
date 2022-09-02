@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f8fc"
+    android:orientation="vertical"
+    tools:context=".DiagnocatActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/Widget.AppCompat.Button.Borderless"
+        android:src="@drawable/meong_ask"/>
+
+    <TextView
+        android:text="Ayo mulai diagnosis penyakit kucingmu \ndengan menjawab 30 pertanyaan \nseputar gejala berikut ini yuk"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:fontFamily="@font/regular"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Mulai"
+        android:id="@+id/mulaiDiagnosis"
+        android:layout_width="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circle_hover"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

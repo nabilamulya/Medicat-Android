@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f8fc"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f7f8fc"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:elevation="5dp"
+            android:background="#ffffff">
+
+            <ImageButton
+                android:id="@+id/imgB_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:src="@drawable/ic_back_arrow"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="left"
+                android:text="Beranda"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/bold"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:background="@drawable/square_button">
+
+        <ImageView
+            android:id="@+id/Diagnocat"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_centerInParent="true"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"
+            android:src="@drawable/diagnocat_icon_cat"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/regular"
+        android:text="Diagnocat"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="320dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            android:background="@drawable/square_button">
+
+            <ImageView
+                android:id="@+id/Educat"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:layout_centerInParent="true"
+                android:theme="@style/Widget.AppCompat.Button.Borderless"
+                android:src="@drawable/educat_icon_cat"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="500dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/regular"
+            android:text="Educat"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="540dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            android:background="@drawable/square_button">
+
+            <ImageView
+                android:id="@+id/Medicplace"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                android:layout_centerInParent="true"
+                android:theme="@style/Widget.AppCompat.Button.Borderless"
+                android:src="@drawable/medic_icon_cat"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="720dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/regular"
+            android:text="Medicplace"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+</RelativeLayout>
+</ScrollView>

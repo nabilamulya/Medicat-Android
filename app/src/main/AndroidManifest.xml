@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skripsi.nabila_medicat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DetailEducatActivity"></activity>
+        <activity android:name=".EducatActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".MedicplaceActivity" />
+        <activity android:name=".Q30Activity" />
+        <activity android:name=".Q29Activity" />
+        <activity android:name=".Q28Activity" />
+        <activity android:name=".Q27Activity" />
+        <activity android:name=".Q26Activity" />
+        <activity android:name=".Q25Activity" />
+        <activity android:name=".Q24Activity" />
+        <activity android:name=".Q23Activity" />
+        <activity android:name=".Q22Activity" />
+        <activity android:name=".Q21Activity" />
+        <activity android:name=".Q20Activity" />
+        <activity android:name=".Q19Activity" />
+        <activity android:name=".Q18Activity" />
+        <activity android:name=".Q17Activity" />
+        <activity android:name=".Q16Activity" />
+        <activity android:name=".Q15Activity" />
+        <activity android:name=".Q14Activity" />
+        <activity android:name=".Q13Activity" />
+        <activity android:name=".Q12Activity" />
+        <activity android:name=".Q11Activity" />
+        <activity android:name=".Q10Activity" />
+        <activity android:name=".Q9Activity" />
+        <activity android:name=".Q8Activity" />
+        <activity android:name=".Q7Activity" />
+        <activity android:name=".Q6Activity" />
+        <activity android:name=".Q5Activity" />
+        <activity android:name=".Q4Activity" />
+        <activity android:name=".Q3Activity" />
+        <activity android:name=".Q2Activity" />
+        <activity android:name=".Q1Activity" />
+        <activity android:name=".DiagnocatActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

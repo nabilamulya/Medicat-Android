@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f8fc"
+    android:orientation="vertical"
+    tools:context=".Q22Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Kucing mengalami \nmata bernanah"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/regular"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/circle_hover"
+            android:drawableTint="@color/button_kuesioner"
+            android:text="Sangat Yakin"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circle_hover"
+            android:drawableTint="@color/button_kuesioner"
+            android:text="Yakin"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circle_hover"
+            android:drawableTint="@color/button_kuesioner"
+            android:text="Cukup Yakin"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circle_hover"
+            android:drawableTint="@color/button_kuesioner"
+            android:text="Mungkin"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circle_hover"
+            android:drawableTint="@color/button_kuesioner"
+            android:text="Tidak"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Kembali_22"
+            android:text="Kembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_back_arrow"
+            android:background="@drawable/circle_hover"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+
+        <Button
+            android:id="@+id/Lanjut_22"
+            android:text="Lanjut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/ic_next_arrow"
+            android:background="@drawable/circle_hover"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"/>
+    </LinearLayout>
+
+</LinearLayout>

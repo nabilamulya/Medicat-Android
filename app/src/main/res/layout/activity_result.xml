@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f8fc"
+    tools:context=".ResultActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f7f8fc"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:elevation="5dp"
+        android:background="#ffffff">
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/imgB_back"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#fff"-->
+<!--            android:src="@drawable/ic_back_arrow"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Hasil"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/bold"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:theme="@style/Widget.AppCompat.Button.Borderless"
+            android:src="@drawable/result_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="280dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/regular"
+            android:text="Kucing anda memiliki indikasi \nterserang penyakit:"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/hasilDiagnosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="350dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/regular"
+            android:text=""
+            android:textSize="25sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/nilaiDiagnosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="390dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/regular"
+            android:text=""
+            android:textSize="25sp"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lihatDetail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="520dp"
+                android:background="@drawable/circle_hover"
+                android:drawableTint="@color/button_kuesioner"
+                android:text="Lihat Detail"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:theme="@style/Widget.AppCompat.Button.Borderless" />
+
+            <Button
+                android:id="@+id/beranda"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/circle_hover"
+                android:drawableTint="@color/button_kuesioner"
+                android:text="Beranda"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:theme="@style/Widget.AppCompat.Button.Borderless" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
